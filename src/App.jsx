@@ -15,6 +15,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { TermsOfService } from './pages/TermsOfService'; 
 import { ScrollToTop } from './components/ScrollToTop';
 import { ScrollToSection } from './components/ScrollToSection';
+import { ParaRaio } from './pages/ParaRaio';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
 
             <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
             <Route path="/termos-de-servico" element={<TermsOfService />} />
+            <Route path="/para-raio" element={<ParaRaio />} />
           </Routes>
         </main>
         <Footer />
