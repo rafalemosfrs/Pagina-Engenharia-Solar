@@ -16,10 +16,9 @@ const services = [
 
 const navigation = [
   { name: 'Sobre Nós', href: '/#about', section: 'about' },
-  { name: 'Serviços', dropdown: true }, // Dropdown ativado
+  { name: 'Serviços', dropdown: true },
   { name: 'Nossos Trabalhos', href: '/#work', section: 'work' },
   { name: 'Contato', href: '/#contact', section: 'contact' },
-  { name: 'Para-Raio', href: '/para-raio', section: 'para-raio' },
 ];
 
 export function Header() {
@@ -30,14 +29,14 @@ export function Header() {
   let closeTimeout = useRef(null);
 
   const handleMouseEnter = () => {
-    clearTimeout(closeTimeout.current); // Cancela o fechamento
+    clearTimeout(closeTimeout.current);
     setServicesDropdownOpen(true);
   };
 
   const handleMouseLeave = () => {
     closeTimeout.current = setTimeout(() => {
       setServicesDropdownOpen(false);
-    }, 200); // Pequeno delay para evitar que feche imediatamente
+    }, 200);
   };
 
   useEffect(() => {

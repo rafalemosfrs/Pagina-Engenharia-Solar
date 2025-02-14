@@ -34,9 +34,8 @@ export function ServiceLayout() {
     <section id="services" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-yellow-500">Nossos Serviços</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Soluções Completas em Energia Solar
+            Soluções em Energia Solar e Engenharia Elétrica
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Explore nossos serviços especializados para cada tipo de necessidade.
