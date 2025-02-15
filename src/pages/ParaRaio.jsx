@@ -51,7 +51,7 @@ export function ParaRaio() {
       <div className="mt-12 text-center">
         <p className="text-gray-700">Precisa de um sistema de para-raio seguro e eficiente? Entre em contato conosco!</p>
         <a 
-          href="/contato" 
+          href="/contact" 
           className="mt-4 inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-yellow-600 transition"
         >
           Solicitar Orçamento

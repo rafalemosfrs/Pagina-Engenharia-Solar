@@ -16,6 +16,9 @@ import { TermsOfService } from './pages/TermsOfService';
 import { ScrollToTop } from './components/ScrollToTop';
 import { ScrollToSection } from './components/ScrollToSection';
 import { ParaRaio } from './pages/ParaRaio';
+import { Subestacao } from './pages/Subestação';
+import { LaudoEART } from './pages/LaudoEART';
+import { ServicosTecnicos } from './pages/ServicosTecnicos';
 
 function App() {
   return (
@@ -44,6 +47,9 @@ function App() {
             <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
             <Route path="/termos-de-servico" element={<TermsOfService />} />
             <Route path="/para-raio" element={<ParaRaio />} />
+            <Route path="/subestacao" element={<Subestacao />} />
+            <Route path="/laudos-art" element={<LaudoEART />} />
+            <Route path="/servicos-tecnicos" element={<ServicosTecnicos />} />
           </Routes>
         </main>
         <Footer />
