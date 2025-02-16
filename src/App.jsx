@@ -19,6 +19,10 @@ import { ParaRaio } from './pages/ParaRaio';
 import { Subestacao } from './pages/Subestação';
 import { LaudoEART } from './pages/LaudoEART';
 import { ServicosTecnicos } from './pages/ServicosTecnicos';
+import { ProjetosEletricos } from './pages/ProjetosEletricos';
+import { EmucPmuc } from './pages/EmucPmuc';
+import { Consultoria } from './pages/Consultoria';
+import { ProjetosExecutivos } from './pages/ProjetoExecutivo';
 
 function App() {
   return (
@@ -50,6 +54,10 @@ function App() {
             <Route path="/subestacao" element={<Subestacao />} />
             <Route path="/laudos-art" element={<LaudoEART />} />
             <Route path="/servicos-tecnicos" element={<ServicosTecnicos />} />
+            <Route path="/projetos-eletricos" element={<ProjetosEletricos />} />
+            <Route path="/emuc-pmuc" element={<EmucPmuc />} />
+            <Route path="/consultorias" element={<Consultoria />} />
+            <Route path="/projeto-executivo" element={<ProjetosExecutivos />} />
           </Routes>
         </main>
         <Footer />
@@ -58,4 +66,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  
