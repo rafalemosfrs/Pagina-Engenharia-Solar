@@ -23,6 +23,7 @@ import { ProjetosEletricos } from './pages/ProjetosEletricos';
 import { EmucPmuc } from './pages/EmucPmuc';
 import { Consultoria } from './pages/Consultoria';
 import { ProjetosExecutivos } from './pages/ProjetoExecutivo';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );
