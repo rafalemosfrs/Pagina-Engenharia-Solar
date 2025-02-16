@@ -10,7 +10,6 @@ export function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
     console.log('Form submitted:', formData);
   };
 
@@ -33,7 +32,7 @@ export function Contact() {
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24">
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <div>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} action="https://formsubmit.co/rafaelemosfr@gmail.com" method="POST" className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium leading-6 text-gray-900">
                     Nome
